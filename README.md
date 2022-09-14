@@ -28,6 +28,10 @@
 13. Deploy 2_Owner.sol to remix vm
 13. Interact with the **changeOwner** function - in 2_Owner.sol 
     - Hint: you need to get another account and you need to switch back to the original account.
+14. Start a debugging session from the terminal
+    - Find out what the solidity state & local variables are at different points by dragging the slider or stepping through the transaction.
+14. Switch back to the Deploy & Run Module.  Then deploy to another testnet (ganache, hardhat, or a public test chain with Metamask)
+
 
 
 
