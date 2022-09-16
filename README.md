@@ -56,10 +56,17 @@
 4. Check gas usage of the function - see gas line in the editor
 5. In the deployed instance, see how much value has been sent to the contract.
 
-### Cloning and Editing
+### Cloning
 1. In the File Explorer, click the clone icon on the row of Workspace icons.
 2. and use this repo - or any other you like: `https://github.com/Aniket-Engg/solidity-school.git`
- 
 
+### Editor Features
+1. Go to https://wizard.openzeppelin.com and add some features (or not) and then click on the Open in Remix button.
+2. This will open Remix in a new tab and the workspace will be **code-sample**.
+3. Compile it.
+4. Then in the Editor, hover over the word **onlyOwner**.
+5. See the window that pops up. (The file must be compiled for this to pop up).
+6. Right click on the **onlyOwner** and choose **Go to Definition**.
+7. 
 
 
