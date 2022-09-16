@@ -32,6 +32,34 @@
 14. Switch back to the Deploy & Run Module.  Then deploy to another testnet (ganache, hardhat, or a public test chain with Metamask)
 
 
+## More Advanced (but often used) Tasks
+
+### Console.log & Switching Accounts
+1. Check the use of console.log in 2_Owner.sol 
+2. Edit the message on line 33.  
+3. Compile and deploy the contract. 
+4. Find your message in the terminal.
+5. Try putting a console.log in the **changeOwner** function.
+6. Compile and Deploy the contract.
+7. Open up the **deployed instance** and find the **changeOwner** function.
+8. Change the account and copy the new account.
+9. Switch back to the original account.
+10. Paste the account address that you copied into **changeOwner**'s  parameter **newOwner**. 
+11. Click the changeOwner button.
+12. Why did you need to change back to the original account to run this function?
+13. Find the console.log message you put in this function.
+
+### Sending value with a transaction
+1. Make a function `changeOwner` payable:
+2. Add the word **payable** after the word **public** on line 42.  - - - Compile the contract and deploy it to the Remix VM.  
+3. Send 4 ETH to the contract (using our not so intuitive UI)
+4. Check gas usage of the function - see gas line in the editor
+5. In the deployed instance, see how much value has been sent to the contract.
+
+### Cloning and Editing
+1. In the File Explorer, click the clone icon on the row of Workspace icons.
+2. and use this repo - or any other you like: `https://github.com/Aniket-Engg/solidity-school.git`
+ 
 
 
 
